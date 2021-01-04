@@ -1,0 +1,14 @@
+application:
+  name: supabase
+  project: CHANGEME
+  publicly_accessible: true
+databases:
+- type: postgresql
+  version: 12
+  name: my-postgresql-database
+routers:
+- name: main
+  routes:
+  - application_name: supabase
+    paths:
+    - /*
